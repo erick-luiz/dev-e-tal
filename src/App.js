@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './css/bootstrap.min.css';
+import './css/font-awesome.css';
+import './css/templatemo-training-studio.css';
+import custom from './custom';
+import Header from './components/Header';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import _404 from './Pages/404'
 
 function App() {
+  
+  custom();
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+      <Header active={1}/>
+      <Switch>
+        <Route path={["/inicio","/", "/home"]} component={Home} />
+        <Route>
+          <_404 />
+        </Route>
+      </Switch>
+    </Router>
     </div>
   );
 }
