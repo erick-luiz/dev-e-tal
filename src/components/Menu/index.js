@@ -3,10 +3,12 @@ import {Link} from 'react-router-dom';
 
 export default (props) => {
 
+    //{name: "contato", path:"/contato", active: props.contato},
+    //{name: "projetos", path:"/projetos", active: props.projetos},
+    //{name: "graph", path:"/graph", active: props.graph},
+
     let menus = [
-        {name: "inicio", path:"/inicio", active: props.inicio},
-        {name: "contato", path:"/contato", active: props.contato},
-        {name: "projetos", path:"/projetos", active: props.projetos},
+        {name: "inicio", path:"/inicio", active: props.inicio}
     ]
 
     let [active, setActive] = useState('active');
@@ -33,7 +35,7 @@ export default (props) => {
                             })}
                             <li></li>
                         </ul>        
-                        <a onClick={setNav} active={active} className='menu-trigger'>ssssss
+                        <a onClick={setNav} active={active} className='menu-trigger'>
                             <span>Menu</span>
                         </a>
                     </nav>

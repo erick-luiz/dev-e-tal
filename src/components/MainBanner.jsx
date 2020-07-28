@@ -9,7 +9,7 @@ export default (props) => {
 
     let linkBtn = (link) => {
         if(link.path && link.title) {
-            return <Link to={link.path}>{link.title}</Link>
+            return <a href={link.path}>{link.title}</a>
         }
         return false;
     }

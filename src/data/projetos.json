@@ -1,0 +1,23 @@
+[
+    {
+        "img":{
+            "src":"../../../assets/images/projetos/cronos.png",
+            "alt":"Projeto Cronos Kairos"
+        },
+        "project":{
+            "title":"Plugin Cronos Kairos",
+            "description":"Para quem utiliza o Kairos para seu controle de horas temos um plugin que gera um relatório das suas horas mensais considerando os pedidos, assim você não terá problemas quanto a visibilidade do tempo trabalhado no mês.",
+            "link":"https://github.com/erickLFLopes/cronos-kairos"
+        }
+    },{
+        "img":{
+            "src":"../../../assets/images/projetos/ra.png",
+            "alt":"Projeto App Roda Ágil"
+        },
+        "project":{
+            "title":"Projeto App Roda Ágil",
+            "description":"Visto a necessidade de preencher a roda Agil para conseguirmos ter a visibilidade a maturidade do time, criamos uma página simples para ajudar nesta atividade. Ficou curioso? Dá uma olhada no link abaixo.",
+            "link":"http://grafosm.surge.sh/"
+        }
+    }
+]

@@ -1,3 +1,8 @@
+.down-content{
+    margin-bottom: 2px;
+    max-height: 300x;
+}
+
 .down-content p{
     max-height: 100px;
     min-height: 100px;

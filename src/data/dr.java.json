@@ -1,0 +1,40 @@
+[
+    {
+        "img":"../assets/images/1.webp", 
+        "impact":"Null Pointer como nunca", 
+        "title":"DR1 - NullPointer", 
+        "content":"Não fuja do NullPointer, entenda ele. Neste vídeo veremos um caso atipico...", 
+        "link":"https://www.youtube.com/watch?v=iGgAfhqHDF0"
+    },{
+        "img":"../assets/images/2.webp", 
+        "impact":"Comportamento Encapsulado", 
+        "title":"DR2 Encapsulamento", 
+        "content":"Um dos maiores desafios da OO é entender e usar seus recurso. Que tal ver um pouquinho sobre como usar encapsulamento...", 
+        "link":"https://www.youtube.com/watch?v=uiOFyWTl8DM"
+    },{
+        "img":"../assets/images/3.webp", 
+        "impact":"Mantendo nosso Encapsulamento", 
+        "title":"DR3 Métodos", 
+        "content":"De nada adianta termos a preucação de encapsular o nosso código se não prestarmos a devida atenção na interface pública....", 
+        "link":"https://www.youtube.com/watch?v=Wo-pQuNEESY&t=132s"
+    },    {
+        "img":"../assets/images/4.webp", 
+        "impact":"Proteja suas referencias", 
+        "title":"DR4 Referencias", 
+        "content":"Quantas vezes criamos aquele 'get' e abrimos a porta para uma quebra...", 
+        "link":"https://www.youtube.com/watch?v=G7PdITAy7ik"
+    },
+    {
+        "img":"../assets/images/5.webp", 
+        "impact":"Pra quem gosta de pscina", 
+        "title":"DR5 Pool de Strings", 
+        "content":"Entenda como o java monta cache de Strings e outros tipos de variaveis...", 
+        "link":"https://www.youtube.com/watch?v=Ld3DfWXSeuw"
+    },{
+        "img":"../assets/images/6.webp", 
+        "impact":"Cast", 
+        "title":"DR6 Cast Primitivos", 
+        "content":"Quando queremos fazer um cast estamos tentando modificar o tipo da váriavel! Mas e quando isso acontece sem que a gente saiba...", 
+        "link":"https://www.youtube.com/watch?v=z5N7pSVYSKc"
+    }
+]
