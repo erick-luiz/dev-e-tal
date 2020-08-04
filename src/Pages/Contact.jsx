@@ -11,7 +11,7 @@ import Contact from './Contact'
 export default () => {
 
     return (
-        <React.Fragment>
+        <Page>
             <MainBanner />
             <SectionFectures />
             <SectionCallToAction />
@@ -20,6 +20,6 @@ export default () => {
             <Cards t1="Dicas" t2="Rápidas" description="Série de videos que mostram algumas dicas simples sobre o desenvolvimento Java." />
             <Contact />
             <footer />
-        </React.Fragment>
+        </Page>
     );
 }

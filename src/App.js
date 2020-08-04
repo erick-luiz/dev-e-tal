@@ -8,10 +8,10 @@ import Menu from './components/Menu';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import _404 from './Pages/404'
-import Graph from './Pages/Graph';
+import Graph from './Pages/Graph'
 
 function App() {
-  
+
   custom();
   
   return (
@@ -19,8 +19,10 @@ function App() {
     <Router>
       <Menu active={1}/>
       <Switch>
-        <Route path={["/inicio","/", "/home"]} component={Home} />
-        <Route path={["/graph","/", "/grafco"]} component={Graph} />
+        <Route path={["/","/inicio"]} component={Home} exact />
+
+        <Route path="/grafo" component={Graph} exatly />
+        <Route component={_404} />
         <Route>
           <_404 />
         </Route>
