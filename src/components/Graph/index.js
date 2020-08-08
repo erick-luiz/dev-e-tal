@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import {XYPlot, LineSeries} from 'react-vis';
+import React from 'react';
 import Field from './components/Field'
 
 export default () => {
@@ -105,7 +104,7 @@ export default () => {
     <br />
     <canvas id="canvas-show" width="800" ></canvas>
     <canvas id="canvas-out" width="1400" hidden="true"></canvas>
-    <a href="#" id="salvar" class="btn-salvar linkbotao" >Gerar Imagem</a>
+    {/*<a href="#" id="salvar" class="btn-salvar linkbotao" >Gerar Imagem</a>*/}
     </>
     );
 }

@@ -1,6 +1,5 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import './banner.css'
+import React from 'react';
+import './banner.css';
 
 
 export default (props) => {

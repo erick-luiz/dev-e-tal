@@ -17,12 +17,12 @@ function Projects(props) {
         </div>
         <div className="col-lg-6">
             <ul className="features-items">
-                {projects.filter((p,i) => i%2 === 0).map(p => <Project {...p} />)}
+                {projects.filter((p,i) => i%2 === 0).map((p, idx) => <Project key={`id_${idx}`} {...p} />)}
             </ul>
         </div>
         <div className="col-lg-6">
             <ul className="features-items">
-                {projects.filter((p,i) => i%2 === 1).map(p => <Project {...p} />)}
+                {projects.filter((p,i) => i%2 === 1).map((p, idx) => <Project key={`id_${idx}`} {...p} />)}
             </ul>
         </div>
     </div>

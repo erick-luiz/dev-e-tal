@@ -22,7 +22,7 @@ function loadCall() {
         var tsfilter = $(this).data('tsfilter');
         $('.schedule-filter li').removeClass('active');
         $(this).addClass('active');
-        if (tsfilter == 'all') {
+        if (tsfilter === 'all') {
             $('.schedule-table').removeClass('filtering');
             $('.ts-item').removeClass('show');
         } else {
@@ -30,7 +30,7 @@ function loadCall() {
         }
         $('.ts-item').each(function() {
             $(this).removeClass('show');
-            if ($(this).data('tsmeta') == tsfilter) {
+            if ($(this).data('tsmeta') === tsfilter) {
                 $(this).addClass('show');
             }
         });

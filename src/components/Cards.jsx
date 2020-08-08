@@ -17,7 +17,7 @@ export default (props) => {
                 </div>
             </div>
             <div className="row">
-                { videos.map(v => <Card {...v} />) }
+                { videos.map((v,idx) => <Card key={`id_${idx}`} {...v} />) }
             </div>
             <br />
         </div>
